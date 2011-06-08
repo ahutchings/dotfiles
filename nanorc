@@ -1,0 +1,5 @@
+# Syntax highlighting
+include ~/.nano/syntax/css.nanorc
+include ~/.nano/syntax/html.nanorc
+include ~/.nano/syntax/nanorc.nanorc
+include ~/.nano/syntax/php.nanorc

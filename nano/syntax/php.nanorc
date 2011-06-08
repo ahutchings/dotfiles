@@ -1,0 +1,44 @@
+syntax "php" "\.php$" "\.php[2345s]$" "\.phtml$"
+
+# functions
+color white "\<[a-z_][A-Za-z_]*\("
+
+# numbers
+color cyan "[0-9]"
+
+# keywords
+color green "(^|[^A-Za-z0-9])(AND|OR|var|and|or|default|extends|true|false|global|function|new|switch|case|break|next|prev|elseif|if|else|foreach|for|as|do|while|exit|die|declare|require_once|require|include_once|include|return|echo|static|isset|public|private|protected)([^A-Za-z0-9_])"
+color yellow "(^|[^A-Za-z0-9])(class|array)([^A-Za-z0-9_])"
+color red "(^|[^A-Za-z0-9])(function)([^A-Za-z0-9_])"
+
+# types
+color yellow "(null|false|true|NULL|FALSE|TRUE)"
+
+# operators
+color green "(=|::|=>)"
+
+# variables
+color brightblue "->[A-Za-z_]*"
+color blue "\$[]\[A-Za-z0-9_'\"]*"
+color yellow "->"
+
+# parens/brackets/braces
+color red "(\(|\))"
+color red "(\[|\])"
+color red "(\{|\})"
+
+# strings
+color cyan "'([^'\\]*(\\.[^'\\]*)*)'"
+color cyan ""([^"\\]*(\\.[^"\\]*)*)""
+
+# quotes
+color brightblue "'|\""
+
+# comments
+color brightgreen "#.*"
+color brightgreen "^//.*"
+color brightgreen "\s//.*"
+color brightgreen start="/\*" end="\*/"
+
+# PHP tags
+color red "(<\?(php)?|\?>)"

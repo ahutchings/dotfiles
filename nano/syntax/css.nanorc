@@ -1,0 +1,25 @@
+syntax "css" "\.css$"
+
+# default selectors
+color green "."
+
+# class selectors
+color blue "\.[^,\ ]*"
+
+# attributes
+color yellow start="\{" end="\}"
+
+# values
+color cyan start=":" end="[;^\{]"
+
+# pseudo-classes
+color red ":active|:focus|:hover|:link|:visited|:link|:after|:before|$"
+
+# comments
+color brightblue start="/\*" end="\*/"
+
+# punctuation
+color brightblue ";|:|,"
+
+# brackets
+color blue "\{|\}"
