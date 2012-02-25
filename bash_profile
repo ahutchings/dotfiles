@@ -5,6 +5,12 @@ eval "$(rbenv init -)"
 # MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
+# Amazon RDS CLI Tools
+export JAVA_HOME=$(/usr/libexec/java_home)
+export AWS_RDS_HOME=/opt/rds
+export AWS_CREDENTIAL_FILE=~/.aws/credentials
+export PATH=$PATH:$AWS_RDS_HOME/bin
+
 # Add user binaries to path
 export PATH=~/bin:$PATH
 
