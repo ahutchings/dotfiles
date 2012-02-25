@@ -5,9 +5,7 @@
 	user = <%= print("GitHub Username: "); STDOUT.flush; STDIN.gets.chomp %>
 	token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+	ui = true
 [core]
 	excludesfile = <%= ENV['HOME'] %>/.gitignore
 [format]
