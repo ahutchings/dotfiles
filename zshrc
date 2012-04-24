@@ -14,6 +14,8 @@ alias ls='ls -FG'  # use colors
 alias la='ls -Fa'  # list all files
 alias ll='ls -Fls' # long listing format
 
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
