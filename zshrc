@@ -16,6 +16,8 @@ alias ll='ls -Fls' # long listing format
 
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
+export WEBMD_SANDBOX=$HOME/WebMD/sandbox
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
