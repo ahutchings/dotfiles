@@ -40,4 +40,5 @@ plugins=(apache2-macports git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
+# Use Sublime Text 2 as default editor
+export EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -w'
