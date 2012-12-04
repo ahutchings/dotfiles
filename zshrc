@@ -20,6 +20,8 @@ alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
+export PATH=/usr/local/share/npm/bin:$PATH
+
 export WEBMD_SANDBOX=$HOME/WebMD/sandbox
 export JAVA_HOME=$(/usr/libexec/java_home)
 
