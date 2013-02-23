@@ -16,7 +16,6 @@ alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
 export EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -w'
 export PATH=/usr/local/share/npm/bin:$PATH
-export WEBMD_SANDBOX=$HOME/WebMD/sandbox
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
@@ -25,3 +24,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 plugins=(brew git)
 
 source $ZSH/oh-my-zsh.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
