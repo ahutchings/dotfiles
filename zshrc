@@ -25,6 +25,7 @@ plugins=(brew git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Z
 . `brew --prefix`/etc/profile.d/z.sh
 
 ### Added by the Heroku Toolbelt
