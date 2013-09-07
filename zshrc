@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/.zsh/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 # Aliases
 alias zshconfig="subl ~/.zshrc"
@@ -24,6 +24,9 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 plugins=(brew git)
 
 source $ZSH/oh-my-zsh.sh
+
+# Pure Theme
+. $HOME/.zsh/pure/pure.zsh
 
 # Z
 . `brew --prefix`/etc/profile.d/z.sh
